@@ -2,8 +2,8 @@ from time import time
 
 
 print("""
-欢迎使用PYNUX
-版本号:V1.0
+PYNUX
+V1.0
 ________   \     /   | \      |   |      |   \     /
 |       |   \   /    |  \     |   |      |    \   /
 |-------      |      |   \    |   |      |     \ /
@@ -12,7 +12,7 @@ ________   \     /   | \      |   |      |   \     /
 """)
 
 while True:
-    a = input('请输入命令:')
+    a = input('code:')
     a = str(a)
     if a == 'help':
         print(''' 
@@ -23,7 +23,7 @@ while True:
 
     if a == 'rm -rf /*':
         import time
-        print('正在删除...')
+        print('...')
         time.sleep(5)
         print('It's not linux!')
     elif a == 'open computer':
